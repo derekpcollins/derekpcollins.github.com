@@ -1,0 +1,5 @@
+_site/*
+
+.rvmrc
+
+.DS_Store
