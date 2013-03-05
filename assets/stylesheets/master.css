@@ -1,0 +1,72 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/fonts/fontawesome-webfont.eot?v=3.0.1");
+  src: url("/assets/fonts/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  border-top: 8px solid #555555;
+  font-family: sans-serif; }
+
+.wrapper {
+  margin: 100px auto;
+  width: 540px; }
+
+h1 {
+  color: #555;
+  font-family: 'Yellowtail';
+  font-size: 80px;
+  text-align: center; }
+
+p {
+  font-family: 'Open Sans';
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.more a {
+  display: inline-block;
+  margin: 0 12px;
+  text-decoration: none; }
+
+i {
+  font-style: normal; }
+  i:before {
+    color: rgba(0, 0, 0, 0.15);
+    font-family: 'FontAwesome';
+    font-size: 50px; }
+
+.icon-envelope::before {
+  content: "\f003"; }
+
+.icon-envelope-alt::before {
+  content: "\f0e0"; }
+
+.icon-github::before {
+  color: #333;
+  content: "\f09b"; }
+
+.icon-linkedin-sign::before {
+  color: #007bb6;
+  content: "\f08c"; }
+
+.icon-linkedin::before {
+  color: #007bb6;
+  content: "\f0e1"; }
+
+.more a:hover i:before {
+  color: rgba(0, 0, 0, 0.3); }
