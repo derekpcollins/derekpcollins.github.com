@@ -17,6 +17,8 @@ h1 {
   background-size: 50%;
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   color: rgba(67, 201, 117, .45);
   font-family: 'Pacifico';
   font-size: 200px;
