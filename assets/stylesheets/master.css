@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  background: url(/assets/images/fl-keys.jpg) 50% 50% no-repeat;
+  background: -webkit-linear-gradient(left, rgba(63,184,175, 1) 15%, rgba(255,61,127, 1), rgba(255,164,70, 1));
   background-size: 50%;
   background-clip: text;
   -webkit-background-clip: text;
