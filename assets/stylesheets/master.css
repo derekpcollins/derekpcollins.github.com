@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  background: -webkit-linear-gradient(left, rgba(63,184,175, 1) 15%, rgba(255,61,127, 1), rgba(255,164,70, 1));
+  background: -webkit-linear-gradient(left, rgba(63,184,175, 1) 30%, rgba(255,61,127, 1), rgba(255,164,70, 1) 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -21,7 +21,7 @@ h1 {
   color: rgba(67, 201, 117, .45);
   font-family: 'Pacifico';
   font-size: 200px;
-  line-height: 200px;
+  line-height: 1.1;
   margin: 0 0 10px 0;
   padding: 0;
   text-align: center;
